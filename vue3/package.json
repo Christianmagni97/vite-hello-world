@@ -1,5 +1,5 @@
 {
-  "name": "vite-project",
+  "name": "vue3",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,9 +8,11 @@
     "build": "vite build",
     "preview": "vite preview"
   },
+  "dependencies": {
+    "vue": "^3.4.21"
+  },
   "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "^3.0.2",
-    "svelte": "^4.2.12",
+    "@vitejs/plugin-vue": "^5.0.4",
     "vite": "^5.2.0"
   }
 }
