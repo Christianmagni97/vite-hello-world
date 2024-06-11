@@ -9,5 +9,8 @@
     </header>
 </template>
 <style>
-
+h1{
+    color: green;
+    text-align: center;
+}
 </style>
